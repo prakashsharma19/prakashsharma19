@@ -7,7 +7,7 @@
 ## About Me
 
 - 👀 **Interests:** Website Development, Coding, AI, and Open-Source Projects
-- 🌱 **Skills:** Acquired various skills in website development and digital marketing, certified by a well-known institution. Check out my [LinkedIn](https://in.linkedin.com/in/prakash-sharma-31a80428a?original_referer=https%3A%2F%2Fwww.google.com%2F) for more details.
+- 🌱 **Skills:** Acquired various skills in Website Development and Marketing, certified by well-known institutions. Check out my [LinkedIn](https://in.linkedin.com/in/prakash-sharma-31a80428a?original_referer=https%3A%2F%2Fwww.google.com%2F) for more details.
 - 🌱 **Currently Learning:** Python, Data Science, and Cloud Computing
 - 💞️ **Looking to Collaborate On:** Innovative projects related to AI and sustainability
 
