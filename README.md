@@ -1,11 +1,30 @@
-- 👋 Hi, I’m @prakashsharma19
-- 👀 I’m interested in software development, machine learning, coding, and open-source projects.
-- 🌱 I’m currently learning Python, data science, and cloud computing.
-- 💞️ I’m looking to collaborate on innovative projects related to AI and sustainability.
-- 📫 How to reach me: You can email me at geekyprakash1@gmail.com or connect with me on LinkedIn.
-- 😄 Pronouns: He/Him
-- ⚡ Fun fact: I love trekking/wandering and have completed several Himalayan treks!
+# 👋 Hi, I'm Prakash Sharma
 
+**Location:** Prayagraj, India
+
+---
+
+## About Me
+
+- 👀 **Interests:** Website Development, Coding, AI, and Open-Source Projects
+- 🌱 **Skills:** Acquired various skills in website development and digital marketing, certified by a well-known institution. Check out my [LinkedIn](https://in.linkedin.com/in/prakash-sharma-31a80428a?original_referer=https%3A%2F%2Fwww.google.com%2F) for more details.
+- 🌱 **Currently Learning:** Python, Data Science, and Cloud Computing
+- 💞️ **Looking to Collaborate On:** Innovative projects related to AI and sustainability
+
+---
+
+## Get in Touch
+
+- 📫 **Email:** [geekyprakash1@gmail.com](mailto:geekyprakash1@gmail.com)
+- 💼 **LinkedIn:** [linkedin.com/in/prakash-sharma-31a80428a](https://in.linkedin.com/in/prakash-sharma-31a80428a?original_referer=https%3A%2F%2Fwww.google.com%2F)
+
+---
+
+## Fun Fact
+
+⚡ I love trekking and traveling! I’ve completed several Himalayan treks.
+
+---
 
 <!---
 prakashsharma19/prakashsharma19 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
