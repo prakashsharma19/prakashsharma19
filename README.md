@@ -22,16 +22,14 @@
             position: fixed;
             right: 30px;
             bottom: 30px;
-            background-color: #000;
-            color: #fff;
-            border: 1px solid #000;
-            padding: 10px 20px;
-            border-radius: 5px;
-            text-align: center;
-            font-size: 16px;
-            font-weight: 500;
-            cursor: pointer;
-            z-index: 1000;
+        }
+        .quote {
+            font-style: italic;
+            color: #333; /* Dark gray for contrast */
+            margin-top: 20px;
+            padding: 10px;
+            border-left: 4px solid #003366; /* Optional left border for emphasis */
+            background-color: #F9F9F9; /* Light background color */
         }
     </style>
 </head>
@@ -64,14 +62,14 @@
             <h2>Fun Fact</h2>
             <p>I love trekking and traveling! I’ve completed several Himalayan treks.</p>
             <div class="quote">
-            <p>I am bold and straightforward, speaking only on topics I fully understand from all perspectives. I work passionately, always striving for daily improvement. Your opinion won't affect me, and I don't concern myself with what others think.</p>
-        </div>
+                <p>I am bold and straightforward, speaking only on topics I fully understand from all perspectives. I work passionately, always striving for daily improvement. Your opinion won't affect me, and I don't concern myself with what others think.</p>
+            </div>
         </div>
         <div class="booking-button">
             <script
                 src="https://topmate-embed.s3.ap-south-1.amazonaws.com/v1/topmate-embed.js"
                 user-profile="https://topmate.io/embed/profile/prakash_sharma?theme=D5534D"
-                btn-style='{"backgroundColor":"#000","color":"#fff","border":"1px solid #000"}'
+                btn-style='{"backgroundColor":"#003366","color":"#fff","border":"1px solid #003366"}'
                 embed-version="v1"
                 button-text="Let's Connect"
                 position-right="30px"
