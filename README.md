@@ -8,7 +8,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            background-color: #FFFCF2;
+            background-color: #FFFCF2; /* Page background color */
             color: #000;
             padding: 20px;
             border-radius: 10px;
@@ -28,8 +28,13 @@
             color: #333; /* Dark gray for contrast */
             margin-top: 20px;
             padding: 10px;
-            border-left: 4px solid #003366; /* Optional left border for emphasis */
-            background-color: #F9F9F9; /* Light background color */
+            background-color: #FFFCF2; /* Same as page background color */
+        }
+        iframe {
+            width: 100%;
+            height: 500px; /* Adjust height as needed */
+            border: none;
+            border-radius: 10px;
         }
     </style>
 </head>
@@ -58,6 +63,10 @@
                 <li><strong>Email:</strong> <a href="mailto:geekyprakash1@gmail.com" style="color: #1DA1F2;">geekyprakash1@gmail.com</a></li>
                 <li><strong>LinkedIn:</strong> <a href="https://in.linkedin.com/in/prakash-sharma-31a80428a?original_referer=https%3A%2F%2Fwww.google.com%2F" style="color: #1DA1F2;">linkedin.com/in/prakash-sharma-31a80428a</a></li>
             </ul>
+            <hr>
+            <h2>1-to-1 Meeting</h2>
+            <!-- Embed code for your meeting scheduling tool -->
+            <iframe src="https://calendly.com/your-username/30min" frameborder="0"></iframe>
             <hr>
             <h2>Fun Fact</h2>
             <p>I love trekking and traveling! I’ve completed several Himalayan treks.</p>
