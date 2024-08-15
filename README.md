@@ -49,21 +49,36 @@
             position: fixed;
             top: 20px;
             right: 20px;
-            background-color: #1DA1F2;
+            background-color: #0033A0; /* Dark Blue */
             color: #fff;
             border: none;
-            border-radius: 5px;
-            padding: 15px 25px;
-            font-size: 16px;
-            font-weight: 500;
+            border-radius: 8px;
+            padding: 15px 30px; /* Larger size */
+            font-size: 18px; /* Bigger text */
+            font-weight: 600;
             cursor: pointer;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             text-align: center;
             z-index: 1000;
+            text-decoration: none;
         }
         .italic-text {
             font-style: italic;
             margin: 20px 0;
+        }
+        .info-text {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #FFFCF2;
+            color: #000;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            font-size: 14px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 250px;
+            text-align: center;
         }
     </style>
 </head>
@@ -72,14 +87,14 @@
         <script
             src="https://topmate-embed.s3.ap-south-1.amazonaws.com/v1/topmate-embed.js"
             user-profile="https://topmate.io/embed/profile/prakash_sharma?theme=D5534D"
-            btn-style='{"backgroundColor":"#1DA1F2","color":"#fff","border":"none"}'
+            btn-style='{"backgroundColor":"#0033A0","color":"#fff","border":"none"}'
             embed-version="v1"
             button-text="Let's Connect"
             position-right="30px"
             position-bottom="30px"
             custom-padding="0px"
-            custom-font-size="16px"
-            custom-font-weight="500"
+            custom-font-size="18px"
+            custom-font-weight="600"
             custom-width="200px"
             async=""
             defer=""
@@ -90,9 +105,6 @@
         <p><strong>Location:</strong> Prayagraj, India</p>
         <hr>
         <h2>About Me</h2>
-        <p class="italic-text">
-            I am bold and straightforward, speaking only on topics I fully understand from all angles, never superficially. I work with passion, always aiming for daily improvement. Others' opinions don't affect me, and I don't concern myself with what they think.
-        </p>
         <ul>
             <li><strong>Highest Education:</strong> Masters of Business Administration (MBA) in Marketing and Information Technology</li>
             <li><strong>Interests:</strong> Website Development, Coding, AI, Open-Source Projects, Prompt Engineering, Psychology</li>
@@ -114,6 +126,9 @@
         <hr>
         <h2>Fun Fact</h2>
         <p>I love trekking and traveling! I’ve completed several Himalayan treks.</p>
+    </div>
+    <div class="info-text">
+        <p>I am bold and straightforward, speaking only on topics I fully understand from all perspectives. I work passionately, always striving for daily improvement. Your opinion won't affect me, and I don't concern myself with what others think.</p>
     </div>
 </body>
 </html>
