@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -62,7 +63,8 @@
             <ul>
                 <li><strong>Email:</strong> <a href="mailto:geekyprakash1@gmail.com" style="color: #1DA1F2;">geekyprakash1@gmail.com</a></li>
                 <li><strong>LinkedIn:</strong> <a href="https://in.linkedin.com/in/prakash-sharma-31a80428a?original_referer=https%3A%2F%2Fwww.google.com%2F" style="color: #1DA1F2;">linkedin.com/in/prakash-sharma-31a80428a</a></li>
-                           <hr>
+            </ul>
+            <hr>
             <h2>Fun Fact</h2>
             <p>I love trekking and traveling! I’ve completed several Himalayan treks.</p>
             <div class="quote">
