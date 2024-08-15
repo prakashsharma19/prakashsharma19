@@ -63,6 +63,9 @@
             <hr>
             <h2>Fun Fact</h2>
             <p>I love trekking and traveling! I’ve completed several Himalayan treks.</p>
+            <div class="quote">
+            <p>I am bold and straightforward, speaking only on topics I fully understand from all perspectives. I work passionately, always striving for daily improvement. Your opinion won't affect me, and I don't concern myself with what others think.</p>
+        </div>
         </div>
         <div class="booking-button">
             <script
