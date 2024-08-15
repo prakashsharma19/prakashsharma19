@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -47,7 +48,7 @@
         }
         .booking-button {
             position: fixed;
-            top: 20px;
+            bottom: 20px;
             right: 20px;
             background-color: #0033A0; /* Dark Blue */
             color: #fff;
@@ -62,44 +63,15 @@
             z-index: 1000;
             text-decoration: none;
         }
-        .italic-text {
+        .quote {
             font-style: italic;
-            margin: 20px 0;
-        }
-        .info-text {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            background-color: #FFFCF2;
-            color: #000;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            padding: 15px;
-            font-size: 14px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            max-width: 250px;
-            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            border-top: 1px solid #ddd;
         }
     </style>
 </head>
 <body>
-    <div class="booking-button">
-        <script
-            src="https://topmate-embed.s3.ap-south-1.amazonaws.com/v1/topmate-embed.js"
-            user-profile="https://topmate.io/embed/profile/prakash_sharma?theme=D5534D"
-            btn-style='{"backgroundColor":"#0033A0","color":"#fff","border":"none"}'
-            embed-version="v1"
-            button-text="Let's Connect"
-            position-right="30px"
-            position-bottom="30px"
-            custom-padding="0px"
-            custom-font-size="18px"
-            custom-font-weight="600"
-            custom-width="200px"
-            async=""
-            defer=""
-        ></script>
-    </div>
     <div class="container">
         <h1>Hi, I'm Prakash Sharma</h1>
         <p><strong>Location:</strong> Prayagraj, India</p>
@@ -126,9 +98,26 @@
         <hr>
         <h2>Fun Fact</h2>
         <p>I love trekking and traveling! I’ve completed several Himalayan treks.</p>
+        <div class="quote">
+            <p>I am bold and straightforward, speaking only on topics I fully understand from all perspectives. I work passionately, always striving for daily improvement. Your opinion won't affect me, and I don't concern myself with what others think.</p>
+        </div>
     </div>
-    <div class="info-text">
-        <p>I am bold and straightforward, speaking only on topics I fully understand from all perspectives. I work passionately, always striving for daily improvement. Your opinion won't affect me, and I don't concern myself with what others think.</p>
+    <div class="booking-button">
+        <script
+            src="https://topmate-embed.s3.ap-south-1.amazonaws.com/v1/topmate-embed.js"
+            user-profile="https://topmate.io/embed/profile/prakash_sharma?theme=D5534D"
+            btn-style='{"backgroundColor":"#0033A0","color":"#fff","border":"none"}'
+            embed-version="v1"
+            button-text="Let's Connect"
+            position-right="30px"
+            position-bottom="30px"
+            custom-padding="0px"
+            custom-font-size="18px"
+            custom-font-weight="600"
+            custom-width="200px"
+            async=""
+            defer=""
+        ></script>
     </div>
 </body>
 </html>
