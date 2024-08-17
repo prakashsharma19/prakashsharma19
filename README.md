@@ -89,13 +89,14 @@
             <hr>
             <h2>Hobbies</h2>
             <ul>
-                <li>Trekking, Nature Loving, Writing</li>
+                <li>Trekking, Nature Loving, Writing, Bibliophile</li>
             </ul>
             <hr>
             <h2>Get in Touch</h2>
-            <ul>
-                <li><strong>Email:</strong> <a href="mailto:geekyprakash1@gmail.com">geekyprakash1@gmail.com</a></li>
-                <li><strong>LinkedIn:</strong> <a href="https://in.linkedin.com/in/prakash-sharma-31a80428a?original_referer=https%3A%2F%2Fwww.google.com%2F">linkedin.com/in/prakash-sharma-31a80428a</a></li>
+<ul>
+    <li><strong>Email:</strong> <a href="mailto:geekyprakash1@gmail.com">geekyprakash1@gmail.com</a></li>
+    <li><strong>Request for CV:</strong> <a href="https://in.linkedin.com/in/prakash-sharma-31a80428a?original_referer=https%3A%2F%2Fwww.google.com%2F">Click here</a></li>
+</ul>
             </ul>
             <hr>
             <h2>Fun Fact</h2>
