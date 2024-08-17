@@ -97,7 +97,7 @@
     <li><strong>Email:</strong> <a href="mailto:geekyprakash1@gmail.com">geekyprakash1@gmail.com</a></li>
     <li><strong>Request for CV:</strong> <a href="https://in.linkedin.com/in/prakash-sharma-31a80428a?original_referer=https%3A%2F%2Fwww.google.com%2F">Click here</a></li>
 </ul>
-            </ul>
+          
             <hr>
             <h2>Fun Fact</h2>
             <p>I love trekking and traveling! I’ve completed several Himalayan treks.</p>
