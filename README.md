@@ -20,14 +20,15 @@
             background-color: #FFFFFF;
             padding: 40px;
             border-radius: 10px;
-            max-width: 900px;
+            max-width: 100%; /* Adjust to full width */
             margin: 20px auto;
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
         }
 
         .content {
-            max-width: 800px;
+            max-width: 100%; /* Ensure content is responsive */
             width: 100%;
+            padding: 0 20px; /* Add some padding for better visual alignment */
         }
 
         h1, h2 {
@@ -114,13 +115,43 @@
                 <p>I am bold and straightforward, engaging only in topics I thoroughly understand from every perspective. I approach my work with passion, constantly aiming for daily improvement. Your opinion won't sway me, and I don't let the thoughts of others affect me.</p>
             </div>
         </div>
+
+        <!-- Contact Form -->
+        <iframe data-tally-src="https://tally.so/embed/wQd4op?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" 
+                loading="lazy" width="100%" height="1" frameborder="0" marginheight="0" marginwidth="0" title="Contact me!"></iframe>
+        <script>
+            var d = document, 
+                w = "https://tally.so/widgets/embed.js", 
+                v = function() {
+                    if (typeof Tally !== "undefined") {
+                        Tally.loadEmbeds();
+                    } else {
+                        d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach(function(e) {
+                            e.src = e.dataset.tallySrc;
+                        });
+                    }
+                };
+            if (typeof Tally !== "undefined") v(); 
+            else if (d.querySelector('script[src="'+w+'"]') == null) {
+                var s = d.createElement("script");
+                s.src = w;
+                s.onload = v;
+                s.onerror = v;
+                d.body.appendChild(s);
+            }
+        </script>
+
         <div class="booking-button">
-            <script src="https://topmate-embed.s3.ap-south-1.amazonaws.com/v1/topmate-embed.js" user-profile="https://topmate.io/embed/profile/prakash_sharma?theme=D5534D" btn-style='{"backgroundColor":"#003366","color":"#fff","border":"1px solid #003366"}' embed-version="v1" button-text="Let's Connect" position-right="30px" position-bottom="30px" custom-padding="0px" custom-font-size="16px" custom-font-weight="500" custom-width="200px" async="" defer=""></script>
+            <script src="https://topmate-embed.s3.ap-south-1.amazonaws.com/v1/topmate-embed.js" 
+                    user-profile="https://topmate.io/embed/profile/prakash_sharma?theme=D5534D" 
+                    btn-style='{"backgroundColor":"#003366","color":"#fff","border":"1px solid #003366"}' 
+                    embed-version="v1" button-text="Let's Connect" 
+                    position-right="30px" position-bottom="30px" 
+                    custom-padding="0px" custom-font-size="16px" 
+                    custom-font-weight="500" custom-width="200px" async defer>
+            </script>
         </div>
     </div>
-
-    <!-- Contact Form Script -->
-    <script type="text/javascript" src="<iframe data-tally-src="https://tally.so/embed/wQd4op?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="1" frameborder="0" marginheight="0" marginwidth="0" title="Contact me!"></iframe><script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>>
 </body>
 
 </html>
