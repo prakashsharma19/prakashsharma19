@@ -82,14 +82,14 @@
             <ul>
                 <li><strong>Highest Education:</strong> Masters of Business Administration (MBA) in Marketing and Information Technology</li>
                 <li><strong>Interests:</strong> Website Development, Coding, AI, Open-Source Projects, Prompt Engineering, Psychology</li>
-                <li><strong>Skills:</strong> Problem Solving, English Proficiency (CEFR B2), Coding, Web Development, Digital Marketing. More details available on <a href="https://in.linkedin.com/in/prakash-sharma-31a80428a?original_referer=https%3A%2F%2Fwww.google.com%2F">LinkedIn</a>.</li>
-                <li><strong>Currently Learning:</strong> Python, Data Science, Cloud Computing, Prompt Engineering</li>
+                <li><strong>Skills:</strong> Problem Solving, Programming, English Proficiency (CEFR B2), Web Development, Digital Marketing. More details available on <a href="https://in.linkedin.com/in/prakash-sharma-31a80428a?original_referer=https%3A%2F%2Fwww.google.com%2F">LinkedIn</a>.</li>
+                <li><strong>Currently Learning:</strong> Python, Data Science, Cloud Computing, Prompt Engineering, etc.</li>
                 <li><strong>Looking to Collaborate On:</strong> Innovative projects related to AI and sustainability</li>
             </ul>
             <hr>
             <h2>Hobbies</h2>
             <ul>
-                <li>Trekking, Nature Loving, Writing, Bibliophile</li>
+                <li>Trekking, Nature Loving, Writing, Bibliophile </li>
             </ul>
             <hr>
             <h2>Get in Touch</h2>
@@ -102,7 +102,7 @@
             <h2>Fun Fact</h2>
             <p>I love trekking and traveling! I’ve completed several Himalayan treks.</p>
             <div class="quote">
-                <p>I am bold and straightforward, speaking only on topics I fully understand from all perspectives. I work passionately, always striving for daily improvement. Your opinion won't affect me, and I don't concern myself with what others think.</p>
+                <p>I am bold and straightforward, engaging only in topics I thoroughly understand from every perspective. I approach my work with passion, constantly aiming for daily improvement. Your opinion won't sway me, and I don't let the thoughts of others affect me.</p>
             </div>
         </div>
         <div class="booking-button">
