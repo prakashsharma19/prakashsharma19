@@ -20,15 +20,15 @@
             background-color: #FFFFFF;
             padding: 40px;
             border-radius: 10px;
-            max-width: 100%; /* Adjust to full width */
+            max-width: 100%;
             margin: 20px auto;
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
         }
 
         .content {
-            max-width: 100%; /* Ensure content is responsive */
+            max-width: 100%;
             width: 100%;
-            padding: 0 20px; /* Add some padding for better visual alignment */
+            padding: 0 20px;
         }
 
         h1, h2 {
@@ -77,6 +77,7 @@
         <div class="content">
             <h1>Chandra Prakash Sharma</h1>
             <h2>Web Developer</h2>
+            <p><strong>Email:</strong> <a href="mailto:geekyprakash1@gmail.com">geekyprakash1@gmail.com</a></p>
             <p><strong>Location:</strong> Prayagraj, India</p>
             <hr>
             <h2>About Me</h2>
@@ -103,17 +104,13 @@
                 <li>Trekking, Nature Loving, Writing, Bibliophile</li>
             </ul>
             <hr>
-            <h2>Get in Touch</h2>
-            <ul>
-                <li><strong>Email:</strong> <a href="mailto:geekyprakash1@gmail.com">geekyprakash1@gmail.com</a></li>
-                <li><strong>Request for CV:</strong> <a href="https://in.linkedin.com/in/prakash-sharma-31a80428a?original_referer=https%3A%2F%2Fwww.google.com%2F">Click here</a></li>
-            </ul>
-            <hr>
             <h2>Fun Fact</h2>
             <p>I love trekking and traveling! I’ve completed several Himalayan treks.</p>
             <div class="quote">
                 <p>I am bold and straightforward, engaging only in topics I thoroughly understand from every perspective. I approach my work with passion, constantly aiming for daily improvement. Your opinion won't sway me, and I don't let the thoughts of others affect me.</p>
             </div>
+            <hr>
+            <h2>Contact Me</h2>
         </div>
 
         <!-- Contact Form -->
