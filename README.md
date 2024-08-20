@@ -87,17 +87,26 @@
                 <li><strong>Looking to Collaborate On:</strong> Innovative projects related to AI and sustainability</li>
             </ul>
             <hr>
+            <h2>Certification</h2>
+            <ul>
+                <li><strong>Digital Marketing:</strong> IIM Bangalore</li>
+                <li><strong>WordPress Developer:</strong> IIIT Allahabad</li>
+                <li><strong>Marketing Management:</strong> IIM Bangalore</li>
+                <li><strong>Management Information Systems:</strong> IIT Kharagpur</li>
+                <li><strong>English Proficiency (CEFR B2):</strong> Certified</li>
+            </ul>
+            <p style="font-style: italic;">(Certifications can be verified through LinkedIn profile)</p>
+            <hr>
             <h2>Hobbies</h2>
             <ul>
-                <li>Trekking, Nature Loving, Writing, Bibliophile </li>
+                <li>Trekking, Nature Loving, Writing, Bibliophile</li>
             </ul>
             <hr>
             <h2>Get in Touch</h2>
-<ul>
-    <li><strong>Email:</strong> <a href="mailto:geekyprakash1@gmail.com">geekyprakash1@gmail.com</a></li>
-    <li><strong>Request for CV:</strong> <a href="https://in.linkedin.com/in/prakash-sharma-31a80428a?original_referer=https%3A%2F%2Fwww.google.com%2F">Click here</a></li>
-</ul>
-          
+            <ul>
+                <li><strong>Email:</strong> <a href="mailto:geekyprakash1@gmail.com">geekyprakash1@gmail.com</a></li>
+                <li><strong>Request for CV:</strong> <a href="https://in.linkedin.com/in/prakash-sharma-31a80428a?original_referer=https%3A%2F%2Fwww.google.com%2F">Click here</a></li>
+            </ul>
             <hr>
             <h2>Fun Fact</h2>
             <p>I love trekking and traveling! I’ve completed several Himalayan treks.</p>
