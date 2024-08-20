@@ -74,7 +74,7 @@
 <body>
     <div class="container">
         <div class="content">
-            <h1>Prakash Sharma</h1>
+            <h1>Chandra Prakash Sharma</h1>
             <h2>Web Developer</h2>
             <p><strong>Location:</strong> Prayagraj, India</p>
             <hr>
@@ -87,7 +87,7 @@
                 <li><strong>Looking to Collaborate On:</strong> Innovative projects related to AI and sustainability</li>
             </ul>
             <hr>
-            <h2>Certification</h2>
+            <h2>Certifications</h2>
             <ul>
                 <li><strong>Digital Marketing:</strong> IIM Bangalore</li>
                 <li><strong>WordPress Developer:</strong> IIIT Allahabad</li>
@@ -95,7 +95,7 @@
                 <li><strong>Management Information Systems:</strong> IIT Kharagpur</li>
                 <li><strong>English Proficiency (CEFR B2):</strong> Certified</li>
             </ul>
-            <p style="font-style: italic;">(Certifications can be verified through LinkedIn profile)</p>
+            <p style="font-style: italic;">(All certifications can be verified through LinkedIn profile)</p>
             <hr>
             <h2>Hobbies</h2>
             <ul>
