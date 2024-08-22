@@ -18,32 +18,27 @@
             flex-direction: column;
             align-items: center;
             background-color: #FFFFFF;
-            padding: 40px;
+            padding: 20px;
             border-radius: 10px;
             max-width: 100%;
-            margin: 20px auto;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-
-        .container:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+            margin: 10px auto;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
         }
 
         .content {
             max-width: 100%;
             width: 100%;
-            padding: 0 20px;
+            padding: 0 10px;
         }
 
         h1, h2 {
             color: #003366;
-            font-size: 2em; /* Increased font size */
+            font-size: 1.8em;
         }
 
-        p {
-            font-size: 1.2em; /* Increased font size */
+        p, ul li {
+            font-size: 1em;
+            line-height: 1.5;
         }
 
         .quote {
@@ -51,7 +46,7 @@
             color: #555;
             margin-top: 20px;
             padding: 15px;
-            background-color: #F2F2F2;
+            background-color: #E6E6FA; /* Light lavender color for better contrast */
             border-left: 5px solid #003366;
         }
 
@@ -72,7 +67,7 @@
         hr {
             border: none;
             border-top: 1px solid #DDDDDD;
-            margin: 20px 0;
+            margin: 10px 0; /* Reduced space between sections */
         }
 
         .booking-button {
@@ -96,14 +91,59 @@
 
         section {
             transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
-            padding: 20px; /* Added padding for better spacing */
-            border-radius: 10px; /* Rounded corners for sections */
+            padding: 10px;
+            border-radius: 10px;
+            margin-bottom: 10px; /* Reduced margin for compact spacing */
         }
 
         section:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
-            background-color: #E0F7FA; /* Light blue color on hover */
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+            background-color: #AFCBFF; /* Light cornflower blue on hover */
+        }
+
+        .no-popup {
+            transition: none;
+            box-shadow: none;
+            background-color: inherit;
+            transform: none;
+        }
+
+        /* Media Query for Mobile Devices */
+        @media (max-width: 600px) {
+            h1, h2 {
+                font-size: 1.5em;
+            }
+
+            p, ul li {
+                font-size: 0.9em;
+            }
+
+            .container {
+                padding: 15px;
+            }
+
+            .content {
+                padding: 0 10px;
+            }
+
+            .booking-button {
+                right: 10px;
+                bottom: 10px;
+            }
+        }
+
+        /* Blinking Title */
+        @keyframes blink {
+            50% {
+                opacity: 0;
+            }
+        }
+
+        @media (min-width: 601px) {
+            title {
+                animation: blink 1s step-start infinite;
+            }
         }
     </style>
 </head>
@@ -167,7 +207,7 @@
             </section>
             <hr>
 
-            <section>
+            <section class="no-popup">
                 <h2>Contact Me</h2>
             </section>
         </div>
@@ -209,5 +249,15 @@
         </div>
     </div>
 </body>
+
+<script>
+    // Blinking Tab Title Effect
+    let originalTitle = document.title;
+    let blink = false;
+    setInterval(function() {
+        document.title = blink ? originalTitle : "Prakash, Contact Me!";
+        blink = !blink;
+    }, 1000);
+</script>
 
 </html>
