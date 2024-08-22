@@ -80,6 +80,7 @@
             <p><strong>Email:</strong> <a href="mailto:geekyprakash1@gmail.com">geekyprakash1@gmail.com</a></p>
             <p><strong>Location:</strong> Prayagraj, India</p>
             <hr>
+
             <h2>About Me</h2>
             <ul>
                 <li><strong>Highest Education:</strong> Masters of Business Administration (MBA) in Marketing and Information Technology</li>
@@ -89,6 +90,13 @@
                 <li><strong>Looking to Collaborate On:</strong> Innovative projects related to AI and sustainability</li>
             </ul>
             <hr>
+
+            <h2>Portfolio</h2>
+            <p>I have successfully completed a diverse range of projects tailored to meet the unique needs of my clients. From designing and developing exceptional websites that reflect the brand identity of businesses, to creating powerful web applications that streamline workflows and enhance productivity, my work consistently delivers high-impact results.</p>
+            <p>In addition to web development, I have provided comprehensive advertising solutions across major platforms like Google, LinkedIn, and Meta, resulting in significant returns on investment for my clients. My expertise in digital marketing, coupled with a deep understanding of client goals, has enabled me to craft strategies that drive measurable success.</p>
+            <p>For more detailed insights into my work and accomplishments, please visit my <a href="https://in.linkedin.com/in/prakash-sharma-31a80428a?original_referer=https%3A%2F%2Fwww.google.com%2F">LinkedIn profile</a>.</p>
+            <hr>
+
             <h2>Certifications</h2>
             <ul>
                 <li><strong>Digital Marketing:</strong> IIM Bangalore</li>
@@ -99,17 +107,20 @@
             </ul>
             <p style="font-style: italic;">(All certifications can be verified through LinkedIn profile)</p>
             <hr>
+
             <h2>Hobbies</h2>
             <ul>
                 <li>Trekking, Nature Loving, Writing, Bibliophile</li>
             </ul>
             <hr>
+
             <h2>Fun Fact</h2>
             <p>I love trekking and traveling! I’ve completed several Himalayan treks.</p>
             <div class="quote">
                 <p>I am bold and straightforward, engaging only in topics I thoroughly understand from every perspective. I approach my work with passion, constantly aiming for daily improvement. Your opinion won't sway me, and I don't let the thoughts of others affect me.</p>
             </div>
             <hr>
+
             <h2>Contact Me</h2>
         </div>
 
