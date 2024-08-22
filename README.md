@@ -99,7 +99,7 @@
         section:hover {
             transform: translateY(-5px);
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
-            background-color: #AFCBFF; /* Light cornflower blue on hover */
+            background-color: #7ef9ff; /* Updated hover color to #7ef9ff */
         }
 
         .no-popup {
