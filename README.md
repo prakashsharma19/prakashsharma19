@@ -148,7 +148,7 @@
             <section>
                 <h2>About Me</h2>
                 <ul>
-                    <li><strong>Highest Education:</strong> Masters of Business Administration (MBA) in Marketing and Information Technology</li>
+                    <li><strong>Highest Education:</strong> Masters of Business Administration (MBA) in Marketing and Information Technology from AKTU</li>
                     <li><strong>Interests:</strong> Website Development, Coding, AI, Open-Source Projects, Prompt Engineering, Psychology</li>
                     <li><strong>Skills:</strong> Problem Solving, Programming, English Proficiency (CEFR B2), Web Development, Digital Marketing. More details available on <a href="https://in.linkedin.com/in/prakash-sharma-31a80428a?original_referer=https%3A%2F%2Fwww.google.com%2F">LinkedIn</a>.</li>
                     <li><strong>Currently Learning:</strong> Python, Data Science, Cloud Computing, Prompt Engineering, etc.</li>
