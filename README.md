@@ -46,7 +46,7 @@
             color: #555;
             margin-top: 20px;
             padding: 15px;
-            background-color: #E6E6FA; /* Light lavender color for better contrast */
+            background-color: #FFFCF2; /* Matching the page background */
             border-left: 5px solid #003366;
         }
 
@@ -91,7 +91,7 @@
 
         section {
             transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
-            padding: 10px;
+            padding: 10px 10px 0px 10px; /* Adjusted padding to remove unnecessary space */
             border-radius: 10px;
             margin-bottom: 10px; /* Reduced margin for compact spacing */
         }
@@ -130,19 +130,6 @@
             .booking-button {
                 right: 10px;
                 bottom: 10px;
-            }
-        }
-
-        /* Blinking Title */
-        @keyframes blink {
-            50% {
-                opacity: 0;
-            }
-        }
-
-        @media (min-width: 601px) {
-            title {
-                animation: blink 1s step-start infinite;
             }
         }
     </style>
@@ -251,13 +238,8 @@
 </body>
 
 <script>
-    // Blinking Tab Title Effect
-    let originalTitle = document.title;
-    let blink = false;
-    setInterval(function() {
-        document.title = blink ? originalTitle : "Prakash, Contact Me!";
-        blink = !blink;
-    }, 1000);
+    // Static Tab Title
+    document.title = "Prakash, Contact Me!";
 </script>
 
 </html>
