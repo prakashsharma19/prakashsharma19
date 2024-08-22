@@ -91,9 +91,10 @@
 
         section {
             transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
-            padding: 10px 10px 0px 10px; /* Adjusted padding to remove unnecessary space */
+            padding: 20px; /* Increased padding for better spacing */
             border-radius: 10px;
-            margin-bottom: 10px; /* Reduced margin for compact spacing */
+            margin-bottom: 20px; /* Increased margin to separate sections more */
+            background-color: #FFFFFF; /* Ensure sections have a distinct background color */
         }
 
         section:hover {
