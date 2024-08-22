@@ -28,7 +28,7 @@
 
         .container:hover {
             transform: translateY(-10px);
-            box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
         }
 
         .content {
@@ -39,6 +39,11 @@
 
         h1, h2 {
             color: #003366;
+            font-size: 2em; /* Increased font size */
+        }
+
+        p {
+            font-size: 1.2em; /* Increased font size */
         }
 
         .quote {
@@ -90,12 +95,15 @@
         }
 
         section {
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+            padding: 20px; /* Added padding for better spacing */
+            border-radius: 10px; /* Rounded corners for sections */
         }
 
         section:hover {
             transform: translateY(-10px);
-            box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+            background-color: #E0F7FA; /* Light blue color on hover */
         }
     </style>
 </head>
