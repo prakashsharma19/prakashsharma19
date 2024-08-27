@@ -25,34 +25,36 @@
             box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
         }
 
-        .content {
-            max-width: 100%;
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
             width: 100%;
-            padding: 0 10px;
+            margin-bottom: 20px;
+        }
+
+        .header .details {
+            flex: 1;
+        }
+
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-left: 20px;
         }
 
         h1, h2 {
             color: #003366;
             font-size: 1.8em;
+            margin: 0;
         }
 
-        p, ul li {
+        p {
             font-size: 1em;
             line-height: 1.5;
-        }
-
-        .quote {
-            font-style: italic;
-            color: #555;
-            margin-top: 20px;
-            padding: 15px;
-            background-color: #FFFCF2; /* Matching the page background */
-            border-left: 5px solid #003366;
-        }
-
-        ul {
-            list-style-type: disc;
-            margin-left: 20px;
+            margin: 5px 0;
         }
 
         a {
@@ -70,31 +72,18 @@
             margin: 10px 0; /* Reduced space between sections */
         }
 
-        .profile-pic {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            object-fit: cover;
-            margin-bottom: 20px;
+        .quote {
+            font-style: italic;
+            color: #555;
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #FFFCF2; /* Matching the page background */
+            border-left: 5px solid #003366;
         }
 
-        .booking-button {
-            position: fixed;
-            right: 30px;
-            bottom: 30px;
-        }
-
-        .booking-button script {
-            display: block;
-            margin: 0 auto;
-        }
-
-        iframe[data-tally-src] {
-            display: block;
-            width: 100%;
-            max-width: 800px;
-            margin: 0 auto;
-            box-sizing: border-box;
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
         }
 
         section {
@@ -132,16 +121,14 @@
                 padding: 15px;
             }
 
-            .content {
-                padding: 0 10px;
-            }
-
-            .booking-button {
-                right: 10px;
-                bottom: 10px;
+            .header {
+                flex-direction: column;
+                align-items: center;
             }
 
             .profile-pic {
+                margin-left: 0;
+                margin-top: 10px;
                 width: 120px;
                 height: 120px;
             }
@@ -151,17 +138,21 @@
 
 <body>
     <div class="container">
-        <!-- Display Picture -->
-        <img src="https://github.com/prakashsharma19/prakash/blob/main/my_image-removebg-preview.png?raw=true" 
-             alt="Profile Picture" class="profile-pic">
+        <!-- Header with Details and Profile Picture -->
+        <div class="header">
+            <div class="details">
+                <h1>Chandra Prakash Sharma</h1>
+                <h2>Web Developer</h2>
+                <p><strong>Email:</strong> <a href="mailto:geekyprakash1@gmail.com">geekyprakash1@gmail.com</a></p>
+                <p><strong>Location:</strong> Prayagraj, India</p>
+            </div>
+            <img src="https://github.com/prakashsharma19/prakash/blob/main/my_image-removebg-preview.png?raw=true" 
+                 alt="Profile Picture" class="profile-pic">
+        </div>
+        
+        <hr>
 
         <div class="content">
-            <h1>Chandra Prakash Sharma</h1>
-            <h2>Web Developer</h2>
-            <p><strong>Email:</strong> <a href="mailto:geekyprakash1@gmail.com">geekyprakash1@gmail.com</a></p>
-            <p><strong>Location:</strong> Prayagraj, India</p>
-            <hr>
-
             <section>
                 <h2>About Me</h2>
                 <ul>
