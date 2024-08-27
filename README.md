@@ -70,6 +70,14 @@
             margin: 10px 0; /* Reduced space between sections */
         }
 
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+
         .booking-button {
             position: fixed;
             right: 30px;
@@ -132,12 +140,21 @@
                 right: 10px;
                 bottom: 10px;
             }
+
+            .profile-pic {
+                width: 120px;
+                height: 120px;
+            }
         }
     </style>
 </head>
 
 <body>
     <div class="container">
+        <!-- Display Picture -->
+        <img src="https://github.com/prakashsharma19/prakash/blob/main/my_image-removebg-preview.png?raw=true" 
+             alt="Profile Picture" class="profile-pic">
+
         <div class="content">
             <h1>Chandra Prakash Sharma</h1>
             <h2>Web Developer</h2>
