@@ -110,7 +110,7 @@
         /* Social media section */
         .social-media {
             display: flex;
-            justify-content: center;
+            justify-content: left;
             align-items: center;
             margin-top: 20px;
         }
