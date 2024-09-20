@@ -190,7 +190,7 @@
                         <img src="https://github.com/prakashsharma19/prakash/blob/main/1696902_apps_media_quora_social_icon.png?raw=true" 
                              alt="Quora Logo">
                     </a>
-                    <a href="https://www.google.com" target="_blank">
+                    <a href="https://www.linkedin.com/in/prakash-sharma-31a80428a?original_referer=https%3A%2F%2Fwww%2Egoogle%2Ecom%2F&originalSubdomain=in" target="_blank">
                         <img src="https://github.com/prakashsharma19/prakash/blob/main/5296501_linkedin_network_linkedin%20logo_icon.png?raw=true" 
                              alt="LinkedIn Logo">
                     </a>
