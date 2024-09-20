@@ -107,6 +107,31 @@
             transform: none;
         }
 
+        /* Social media section */
+        .social-media {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .social-media a {
+            margin: 0 10px;
+        }
+
+        .social-media img {
+            width: 40px;
+            height: 40px;
+            border-radius: 10px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .social-media img:hover {
+            transform: translateY(-3px) scale(1.1);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
         /* Media Query for Mobile Devices */
         @media (max-width: 600px) {
             h1, h2 {
@@ -132,6 +157,11 @@
                 width: 120px;
                 height: 120px;
             }
+
+            .social-media img {
+                width: 35px;
+                height: 35px;
+            }
         }
     </style>
 </head>
@@ -145,14 +175,39 @@
                 <h2>Web Developer</h2>
                 <p><strong>Email:</strong> <a href="mailto:contact@cpsharma.com">contact@cpsharma.com</a></p>
                 <p><strong>Location:</strong> Prayagraj, India</p>
+
+                <!-- Social Media Section -->
+                <div class="social-media">
+                    <a href="https://www.google.com" target="_blank">
+                        <img src="https://github.com/prakashsharma19/prakash/blob/main/11244080_x_twitter_elon%20musk_twitter%20new%20logo_icon.png?raw=true" 
+                             alt="Twitter Logo">
+                    </a>
+                    <a href="https://www.google.com" target="_blank">
+                        <img src="https://github.com/prakashsharma19/prakash/blob/main/5296499_fb_facebook_facebook%20logo_icon.png?raw=true" 
+                             alt="Facebook Logo">
+                    </a>
+                    <a href="https://www.google.com" target="_blank">
+                        <img src="https://github.com/prakashsharma19/prakash/blob/main/1696902_apps_media_quora_social_icon.png?raw=true" 
+                             alt="Quora Logo">
+                    </a>
+                    <a href="https://www.google.com" target="_blank">
+                        <img src="https://github.com/prakashsharma19/prakash/blob/main/5296501_linkedin_network_linkedin%20logo_icon.png?raw=true" 
+                             alt="LinkedIn Logo">
+                    </a>
+                    <a href="https://www.google.com" target="_blank">
+                        <img src="https://github.com/prakashsharma19/prakash/blob/main/5296765_camera_instagram_instagram%20logo_icon.png?raw=true" 
+                             alt="Instagram Logo">
+                    </a>
+                </div>
             </div>
             <img src="https://github.com/prakashsharma19/prakash/blob/main/my_image-removebg-preview.png?raw=true" 
                  alt="Profile Picture" class="profile-pic">
         </div>
-        
+
         <hr>
 
         <div class="content">
+            <!-- About Me Section -->
             <section>
                 <h2>About Me</h2>
                 <ul>
