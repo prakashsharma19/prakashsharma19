@@ -143,7 +143,7 @@
             <div class="details">
                 <h1>Chandra Prakash Sharma</h1>
                 <h2>Web Developer</h2>
-                <p><strong>Email:</strong> <a href="mailto:geekyprakash1@gmail.com">geekyprakash1@gmail.com</a></p>
+                <p><strong>Email:</strong> <a href="mailto:contact@cpsharma.com">contact@cpsharma.com</a></p>
                 <p><strong>Location:</strong> Prayagraj, India</p>
             </div>
             <img src="https://github.com/prakashsharma19/prakash/blob/main/my_image-removebg-preview.png?raw=true" 
