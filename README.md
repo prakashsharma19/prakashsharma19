@@ -216,7 +216,7 @@
         <!-- Header with Details and Profile Picture -->
         <div class="header">
             <div class="details">
-                <h1>Chandra Prakash Sharma</h1> <img src="https://github.com/prakashsharma19/prakash/blob/main/veryfied-removebg-preview.png?raw=true" alt="Logo" style="width:24px; height:24px; vertical-align:middle;"></h1>
+                <h1>Chandra Prakash Sharma<img src="https://github.com/prakashsharma19/prakash/blob/main/veryfied-removebg-preview.png?raw=true" alt="Logo" style="width:24px; height:24px; vertical-align:middle;"></h1>
                 <h2>Web Developer</h2>
                 <p><strong>Email:</strong> <a href="mailto:contact@cpsharma.com">contact@cpsharma.com</a></p>
                 <p><strong>Location:</strong> Prayagraj, India</p>
@@ -347,6 +347,6 @@
 <link rel="icon" href="https://github.com/prakashsharma19/prakash/blob/main/mydp-removebg-preview.png?raw=true" type="image/png">
 <script>
     // Static Tab Title
-    document.title = "Prakash (CP Sharma) ✅";
+    document.title = "Prakash (CP Sharma)";
 </script>
 
