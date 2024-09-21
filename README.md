@@ -214,8 +214,6 @@
 <body>
     <div class="container">
         <!-- Header with Details and Profile Picture -->
-        <div class="header">
-            <div class="details">
                 <h1>Chandra Prakash Sharma 
     <img src="https://github.com/prakashsharma19/prakash/blob/main/veryfied-removebg-preview.png?raw=true" alt="Logo" style="width:24px; height:24px; vertical-align:middle;">
                 <h2>Web Developer</h2>
