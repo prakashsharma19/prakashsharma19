@@ -347,7 +347,7 @@
 <link rel="icon" href="https://github.com/prakashsharma19/prakash/blob/main/mydp-removebg-preview.png?raw=true" type="image/png">
 <script>
     // Static Tab Title
-    document.title = "Prakash (CP Sharma)";
+    document.title = "Prakash (CP Sharma) ✅";
 </script>
 
 <!-- Add the image next to the title inside the body -->
