@@ -45,7 +45,8 @@
             margin-left: 20px;
         }
 
-        h1, h2 {
+        h1,
+        h2 {
             color: #003366;
             font-size: 1.8em;
             margin: 0;
@@ -69,7 +70,7 @@
         hr {
             border: none;
             border-top: 1px solid #DDDDDD;
-            margin: 10px 0; /* Reduced space between sections */
+            margin: 10px 0;
         }
 
         .quote {
@@ -77,7 +78,7 @@
             color: #555;
             margin-top: 20px;
             padding: 15px;
-            background-color: #FFFCF2; /* Matching the page background */
+            background-color: #FFFCF2;
             border-left: 5px solid #003366;
         }
 
@@ -87,17 +88,16 @@
         }
 
         section {
-            transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
-            padding: 20px; /* Increased padding for better spacing */
+            padding: 20px;
             border-radius: 10px;
-            margin-bottom: 20px; /* Increased margin to separate sections more */
-            background-color: #FFFFFF; /* Ensure sections have a distinct background color */
+            margin-bottom: 20px;
+            background-color: #FFFFFF;
+            transition: box-shadow 0.3s ease, background-color 0.3s ease;
         }
 
         section:hover {
-            transform: translateY(-5px);
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
-            background-color: #7ef9ff; /* Updated hover color to #7ef9ff */
+            background-color: #f0f8ff;
         }
 
         .no-popup {
@@ -107,7 +107,6 @@
             transform: none;
         }
 
-        /* Social media section */
         .social-media {
             display: flex;
             justify-content: left;
@@ -132,13 +131,14 @@
             box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
         }
 
-        /* Media Query for Mobile Devices */
         @media (max-width: 600px) {
-            h1, h2 {
+            h1,
+            h2 {
                 font-size: 1.5em;
             }
 
-            p, ul li {
+            p,
+            ul li {
                 font-size: 0.9em;
             }
 
@@ -163,6 +163,51 @@
                 height: 35px;
             }
         }
+
+        /* Contact Form Styles */
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        input,
+        textarea,
+        button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        button {
+            width: auto;
+            padding: 8px 16px;
+            background-color: #000;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        button:hover {
+            background-color: #333;
+        }
+
+        .required:after {
+            content: "*";
+            color: red;
+            margin-left: 5px;
+        }
+
+        /* Form Section should not change on hover */
+        section form:hover {
+            background-color: inherit;
+            box-shadow: none;
+        }
     </style>
 </head>
 
@@ -179,29 +224,30 @@
                 <!-- Social Media Section -->
                 <div class="social-media">
                     <a href="https://www.google.com" target="_blank">
-                        <img src="https://github.com/prakashsharma19/prakash/blob/main/11244080_x_twitter_elon%20musk_twitter%20new%20logo_icon.png?raw=true" 
-                             alt="Twitter Logo">
+                        <img src="https://github.com/prakashsharma19/prakash/blob/main/11244080_x_twitter_elon%20musk_twitter%20new%20logo_icon.png?raw=true"
+                            alt="Twitter Logo">
                     </a>
                     <a href="https://www.google.com" target="_blank">
-                        <img src="https://github.com/prakashsharma19/prakash/blob/main/5296499_fb_facebook_facebook%20logo_icon.png?raw=true" 
-                             alt="Facebook Logo">
+                        <img src="https://github.com/prakashsharma19/prakash/blob/main/5296499_fb_facebook_facebook%20logo_icon.png?raw=true"
+                            alt="Facebook Logo">
                     </a>
                     <a href="https://www.google.com" target="_blank">
-                        <img src="https://github.com/prakashsharma19/prakash/blob/main/1696902_apps_media_quora_social_icon.png?raw=true" 
-                             alt="Quora Logo">
+                        <img src="https://github.com/prakashsharma19/prakash/blob/main/1696902_apps_media_quora_social_icon.png?raw=true"
+                            alt="Quora Logo">
                     </a>
-                    <a href="https://www.linkedin.com/in/prakash-sharma-31a80428a?original_referer=https%3A%2F%2Fwww%2Egoogle%2Ecom%2F&originalSubdomain=in" target="_blank">
-                        <img src="https://github.com/prakashsharma19/prakash/blob/main/5296501_linkedin_network_linkedin%20logo_icon.png?raw=true" 
-                             alt="LinkedIn Logo">
+                    <a href="https://www.linkedin.com/in/prakash-sharma-31a80428a?original_referer=https%3A%2F%2Fwww.google.com%2F&originalSubdomain=in"
+                        target="_blank">
+                        <img src="https://github.com/prakashsharma19/prakash/blob/main/5296501_linkedin_network_linkedin%20logo_icon.png?raw=true"
+                            alt="LinkedIn Logo">
                     </a>
                     <a href="https://www.google.com" target="_blank">
-                        <img src="https://github.com/prakashsharma19/prakash/blob/main/5296765_camera_instagram_instagram%20logo_icon.png?raw=true" 
-                             alt="Instagram Logo">
+                        <img src="https://github.com/prakashsharma19/prakash/blob/main/5296765_camera_instagram_instagram%20logo_icon.png?raw=true"
+                            alt="Instagram Logo">
                     </a>
                 </div>
             </div>
-            <img src="https://github.com/prakashsharma19/prakash/blob/main/my_image-removebg-preview.png?raw=true" 
-                 alt="Profile Picture" class="profile-pic">
+            <img src="https://github.com/prakashsharma19/prakash/blob/main/my_image-removebg-preview.png?raw=true"
+                alt="Profile Picture" class="profile-pic">
         </div>
 
         <hr>
@@ -211,18 +257,28 @@
             <section>
                 <h2>About Me</h2>
                 <ul>
-                    <li><strong>Highest Education:</strong> Masters of Business Administration (MBA) in Marketing and Information Technology from AKTU</li>
-                    <li><strong>Interests:</strong> Website Development, Coding, AI, Open-Source Projects, Prompt Engineering, Psychology</li>
-                    <li><strong>Skills:</strong> Problem Solving, Programming, English Proficiency (CEFR B2), Web Development, Digital Marketing. More details available on <a href="https://in.linkedin.com/in/prakash-sharma-31a80428a?original_referer=https%3A%2F%2Fwww.google.com%2F">LinkedIn</a>.</li>
-                    <li><strong>Currently Learning:</strong> Python, Data Science, Cloud Computing, Prompt Engineering, etc.</li>
-                    <li><strong>Looking to Collaborate On:</strong> Innovative projects related to AI and sustainability</li>
+                    <li><strong>Highest Education:</strong> Masters of Business Administration (MBA) in Marketing and
+                        Information Technology from AKTU</li>
+                    <li><strong>Interests:</strong> Website Development, Coding, AI, Open-Source Projects, Prompt
+                        Engineering, Psychology</li>
+                    <li><strong>Skills:</strong> Problem Solving, Programming, English Proficiency (CEFR B2), Web
+                        Development, Digital Marketing. More details available on <a
+                            href="https://in.linkedin.com/in/prakash-sharma-31a80428a?original_referer=https%3A%2F%2Fwww.google.com%2F">LinkedIn</a>.
+                    </li>
+                    <li><strong>Currently Learning:</strong> Python, Data Science, Cloud Computing, Prompt Engineering,
+                        etc.</li>
+                    <li><strong>Looking to Collaborate On:</strong> Innovative projects related to AI and sustainability
+                    </li>
                 </ul>
             </section>
             <hr>
-
+<!-- Portfolio Section -->
             <section>
                 <h2>Portfolio</h2>
-                <p>I have successfully completed a diverse range of projects tailored to meet the unique needs of my clients. From designing and developing exceptional websites that reflect the brand identity of businesses, to creating powerful web applications that streamline workflows and enhance productivity, my work consistently delivers high-impact results.</p>
+                <p>I have successfully completed a diverse range of projects tailored to meet the unique needs of my
+                    clients. From designing and developing exceptional websites that reflect the brand identity of
+                    businesses, to creating powerful web applications that streamline workflows and enhance
+                    productivity, my work consistently delivers high-impact results.</p>
                 <p>In addition to web development, I have provided comprehensive advertising solutions across major platforms like Google, LinkedIn, and Meta, resulting in significant returns on investment for my clients. My expertise in digital marketing, coupled with a deep understanding of client goals, has enabled me to craft strategies that drive measurable success.</p>
                 <p>For more detailed insights into my work and accomplishments, please visit my <a href="https://in.linkedin.com/in/prakash-sharma-31a80428a?original_referer=https%3A%2F%2Fwww.google.com%2F">LinkedIn profile</a>.</p>
             </section>
@@ -258,52 +314,25 @@
             </section>
             <hr>
 
-            <section class="no-popup">
+            			
+            <!-- Contact Form -->
+            <section>
                 <h2>Contact Me</h2>
+                <form action="https://formspree.io/f/xgvwjkqz" method="POST">
+                    <label for="name" class="required">Your Name</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email" class="required">Your Email</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message" class="required">Your Message</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
             </section>
-        </div>
-
-        <!-- Contact Form -->
-        <iframe data-tally-src="https://tally.so/embed/wQd4op?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" 
-                loading="lazy" width="100%" height="1" frameborder="0" marginheight="0" marginwidth="0" title="Contact me!"></iframe>
-        <script>
-            var d = document, 
-                w = "https://tally.so/widgets/embed.js", 
-                v = function() {
-                    if (typeof Tally !== "undefined") {
-                        Tally.loadEmbeds();
-                    } else {
-                        d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach(function(e) {
-                            e.src = e.dataset.tallySrc;
-                        });
-                    }
-                };
-            if (typeof Tally !== "undefined") v(); 
-            else if (d.querySelector('script[src="'+w+'"]') == null) {
-                var s = d.createElement("script");
-                s.src = w;
-                s.onload = v;
-                s.onerror = v;
-                d.body.appendChild(s);
-            }
-        </script>
-
-        <div class="booking-button">
-            <script src="https://topmate-embed.s3.ap-south-1.amazonaws.com/v1/topmate-embed.js" 
-                    user-profile="https://topmate.io/embed/profile/prakash_sharma?theme=D5534D" 
-                    btn-style='{"backgroundColor":"#003366","color":"#fff","border":"1px solid #003366"}' 
-                    embed-version="v1" button-text="Let's Connect 1:1" 
-                    position-right="30px" position-bottom="30px" 
-                    custom-padding="0px" custom-font-size="16px" 
-                    custom-font-weight="500" custom-width="200px" async defer>
-            </script>
         </div>
     </div>
 </body>
-
-<script>
-    // Static Tab Title
-    document.title = "Prakash, Contact Me!";
-</script>
 
 </html>
