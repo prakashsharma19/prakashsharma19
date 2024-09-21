@@ -334,10 +334,11 @@
         </div>
     </div>
 </body>
-<link rel="icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjRweHgiIHZpZXdCb3g9Ii0wIC00MjYgOTYwIDEwMDAiIHdpZHRoPSIyNHB4IiBmaWxsPSIjNWY2MzY4Ij48cGF0aCBkPSJtNDI0LTI5NiAyODItMjgyLTU2LTU2LTIyNiAyMjYtMTE0LTExLTExIDU2IDU2IDE3MCAxNzAgbTU2IDY2Ii8+PC9zdmc+" type="image/svg+xml">
+<link rel="icon" href="https://github.com/prakashsharma19/prakash/blob/main/veryfied.jpg?raw=true" type="image/jpeg">
 <script>
     // Static Tab Title
     document.title = "Prakash, Contact Me!";
 </script>
 
 </html>
+
