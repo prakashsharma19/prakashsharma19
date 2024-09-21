@@ -337,9 +337,7 @@
                     custom-font-weight="500" custom-width="200px" async defer>
             </script>
         </div>
-    </div>
-</body>
-
+   
                     <button type="submit">Submit</button>
                 </form>
             </section>
