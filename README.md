@@ -344,11 +344,17 @@
         </div>
     </div>
 </body>
-<link rel="icon" href="https://github.com/prakashsharma19/prakash/blob/main/veryfied-removebg-preview.png?raw=true" type="image/png">
+<link rel="icon" href="https://github.com/prakashsharma19/prakash/blob/main/mydp-removebg-preview.png?raw=true" type="image/png">
 <script>
     // Static Tab Title
-    document.title = "Prakash Sharma (CP Sharma)";
+    document.title = "Prakash (CP Sharma)";
 </script>
+
+<!-- Add the image next to the title inside the body -->
+<h1>
+    Prakash (CP Sharma) 
+    <img src="https://github.com/prakashsharma19/prakash/blob/main/veryfied-removebg-preview.png?raw=true" alt="Logo" style="width:24px; height:24px; vertical-align:middle;">
+</h1>
 
 </html>
 
