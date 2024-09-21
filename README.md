@@ -334,10 +334,10 @@
         </div>
     </div>
 </body>
-<link rel="icon" href="https://github.com/prakashsharma19/prakash/blob/main/veryfied.jpg?raw=true" type="image/jpeg">
+<link rel="icon" href="https://github.com/prakashsharma19/prakash/blob/main/veryfied-removebg-preview.png?raw=true" type="image/png">
 <script>
     // Static Tab Title
-    document.title = "Prakash, Contact Me!";
+    document.title = "Prakash Sharma (CP Sharma)";
 </script>
 
 </html>
