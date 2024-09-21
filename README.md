@@ -351,11 +351,3 @@
     document.title = "Prakash (CP Sharma) ✅";
 </script>
 
-<!-- Add the image next to the title inside the body -->
-<h1>
-    Prakash (CP Sharma) 
-    <img src="https://github.com/prakashsharma19/prakash/blob/main/veryfied-removebg-preview.png?raw=true" alt="Logo" style="width:24px; height:24px; vertical-align:middle;">
-</h1>
-
-</html>
-
