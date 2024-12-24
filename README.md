@@ -240,7 +240,7 @@
                         <img src="https://github.com/prakashsharma19/prakash/blob/main/5296499_fb_facebook_facebook%20logo_icon.png?raw=true"
                             alt="Facebook Logo">
                     </a>
-                    <a href="https://www.google.com" target="_blank">
+                    <a href="https://www.quora.com/profile/Prakash-1051?ch=10&oid=297460336&share=7acec5de&srid=hU3hT&target_type=user" target="_blank">
                         <img src="https://github.com/prakashsharma19/prakash/blob/main/1696902_apps_media_quora_social_icon.png?raw=true"
                             alt="Quora Logo">
                     </a>
@@ -249,7 +249,7 @@
                         <img src="https://github.com/prakashsharma19/prakash/blob/main/5296501_linkedin_network_linkedin%20logo_icon.png?raw=true"
                             alt="LinkedIn Logo">
                     </a>
-                    <a href="https://www.google.com" target="_blank">
+                    <a href="https://www.instagram.com/ambvert_/" target="_blank">
                         <img src="https://github.com/prakashsharma19/prakash/blob/main/5296765_camera_instagram_instagram%20logo_icon.png?raw=true"
                             alt="Instagram Logo">
                     </a>
