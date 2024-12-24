@@ -232,7 +232,7 @@
 
                 <!-- Social Media Section -->
                 <div class="social-media">
-                    <a href="https://www.google.com" target="_blank">
+                    <a href="https://x.com/ambvert_" target="_blank">
                         <img src="https://github.com/prakashsharma19/prakash/blob/main/11244080_x_twitter_elon%20musk_twitter%20new%20logo_icon.png?raw=true"
                             alt="Twitter Logo">
                     </a>
