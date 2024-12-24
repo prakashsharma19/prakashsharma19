@@ -244,7 +244,7 @@
                         <img src="https://github.com/prakashsharma19/prakash/blob/main/1696902_apps_media_quora_social_icon.png?raw=true"
                             alt="Quora Logo">
                     </a>
-                    <a href="https://www.linkedin.com/in/prakash-sharma-31a80428a?original_referer=https%3A%2F%2Fwww.google.com%2F&originalSubdomain=in"
+                    <a href="https://www.linkedin.com/in/chandra-prakash-sharma-31a80428a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                         target="_blank">
                         <img src="https://github.com/prakashsharma19/prakash/blob/main/5296501_linkedin_network_linkedin%20logo_icon.png?raw=true"
                             alt="LinkedIn Logo">
